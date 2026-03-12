@@ -31,12 +31,12 @@ dependencies = [
 ]
 
 [project.scripts]
-docker-compose-doctor = "docker_compose_doctor.cli:main"
+docker-compose-doctor = "cli:main"
 
 [project.urls]
-Homepage = "https://imhotepsystems.com/tools/docker-compose-doctor"
-Repository = "https://github.com/imhotep-systems/docker-compose-doctor"
-Issues = "https://github.com/imhotep-systems/docker-compose-doctor/issues"
+Homepage = "https://github.com/rhirwa/docker-compose-doctor"
+Repository = "https://github.com/rhirwa/docker-compose-doctor"
+Issues = "https://github.com/rhirwa/docker-compose-doctor/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/docker_compose_doctor"]
+packages = ["."]
